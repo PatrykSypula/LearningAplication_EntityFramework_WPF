@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\patry\source\repos\PatrykSypula\LearningAplication_EntityFramework_WPF\LearningApplication_WPF_EntityFramework\obj\Release\net6.0-windows\
+C:\Users\patry\Source\Repos\PatrykSypula\LearningAplication_EntityFramework_WPF\LearningApplication_WPF_EntityFramework\obj\Release\net6.0-windows\
 LearningApplication_WPF_EntityFramework
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Users\patry\source\repos\PatrykSypula\LearningAplication_EntityFramework_WPF\LearningApplication_WPF_EntityFramework\App.xaml
+C:\Users\patry\Source\Repos\PatrykSypula\LearningAplication_EntityFramework_WPF\LearningApplication_WPF_EntityFramework\App.xaml
 132086634976
 
-45-761962002
+42-1311576331
 200-2087132865
 Views\CustomMessageBoxOk.xaml;Views\CustomMessageBoxYesNo.xaml;Views\Dictionary\DictionaryCreateWindow.xaml;Views\Dictionary\DictionaryEditWindow.xaml;Views\Dictionary\DictionaryManagementWindow.xaml;Views\MainWindow.xaml;Views\Session\ChooseDictionaryWindow.xaml;Views\Session\SessionInputNoReturnsWindow.xaml;Views\Session\SessionInputWithReturnsWindow.xaml;Views\Session\SessionYesNoWindow.xaml;Views\Statistics\ChooseStatisticDictionaryWindow.xaml;Views\Statistics\StatisticsFromDictionaryWindow.xaml;Views\Statistics\StatisticsWindow.xaml;
 

@@ -25,6 +25,7 @@ namespace LearningApplication.ViewModels
                     if (!File.Exists("DidCreateBasics.txt"))
                     {
                         File.Create("DidCreateBasics.txt");
+                        context.Database.Delete();
                         var sql = File.ReadAllText("..\\..\\..\\OnCreateData.sql");
                         context.Database.ExecuteSqlCommand(sql);
                         context.SaveChanges();

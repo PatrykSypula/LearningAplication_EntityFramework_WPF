@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\patry\Source\Repos\PatrykSypula\LearningAplication_EntityFramework_WPF\LearningApplication_WPF_EntityFramework\App.xaml
 132086634976
 
-45-662011512
+44187295023
 200-2087132865
 Views\CustomMessageBoxOk.xaml;Views\CustomMessageBoxYesNo.xaml;Views\Dictionary\DictionaryCreateWindow.xaml;Views\Dictionary\DictionaryEditWindow.xaml;Views\Dictionary\DictionaryManagementWindow.xaml;Views\MainWindow.xaml;Views\Session\ChooseDictionaryWindow.xaml;Views\Session\SessionInputNoReturnsWindow.xaml;Views\Session\SessionInputWithReturnsWindow.xaml;Views\Session\SessionYesNoWindow.xaml;Views\Statistics\ChooseStatisticDictionaryWindow.xaml;Views\Statistics\StatisticsFromDictionaryWindow.xaml;Views\Statistics\StatisticsWindow.xaml;
 
-True
+False
 
