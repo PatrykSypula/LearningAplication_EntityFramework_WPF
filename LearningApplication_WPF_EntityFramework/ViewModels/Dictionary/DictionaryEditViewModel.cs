@@ -223,6 +223,7 @@ namespace LearningApplication.ViewModels.Dictionary
                                     {
                                         WordsList.RemoveAt(index);
                                     }
+                                    context.Words.Attach(word);
                                     context.Words.Remove(word);
                                     context.SaveChanges();
                                 }

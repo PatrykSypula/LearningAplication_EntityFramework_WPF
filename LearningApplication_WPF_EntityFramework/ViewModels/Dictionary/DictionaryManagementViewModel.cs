@@ -157,13 +157,16 @@ namespace LearningApplication.ViewModels.Dictionary
                                              wordsList = context.Words.Where(w => w.CardStackId == dictionary.cardStacks.Id).ToList();
                                              foreach (var word in wordsList)
                                              {
+                                                 context.Words.Attach(word);
                                                  context.Words.Remove(word);
                                              }
                                              statsList = context.SessionStatistics.Where(s => s.CardStackId == dictionary.cardStacks.Id).ToList();
                                              foreach (var stat in statsList)
                                              {
+                                                 context.SessionStatistics.Attach(stat);
                                                  context.SessionStatistics.Remove(stat);
                                              }
+                                             context.CardStacks.Attach(dictionary.cardStacks);
                                              context.CardStacks.Remove(dictionary.cardStacks);
                                              context.SaveChanges();
                                              foreach (Window item in Application.Current.Windows)

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LearningApplication_WPF_EntityFramework",
+    "\\LearningApplication_WPF_EntityFramework\\ViewModels"
   ],
+  "SelectedNode": "\\LearningApplication_WPF_EntityFramework\\ViewModels\\MainWindowViewModel.cs",
   "PreviewInSolutionExplorer": false
 }

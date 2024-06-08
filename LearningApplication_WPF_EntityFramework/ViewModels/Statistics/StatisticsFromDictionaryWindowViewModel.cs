@@ -150,15 +150,16 @@ namespace LearningApplication.ViewModels.Statistics
                                      SessionStatistics stat = SelectedItem;
                                      using (var context = new DatabaseContext())
                                      {
+                                         context.SessionStatistics.Attach(stat);
                                          context.SessionStatistics.Remove(stat);
                                          context.SaveChanges();
                                      }
                                      new Views.CustomMessageBoxOk("Pomyślnie usunięto statystykę").ShowDialog();
                                      connection.isConnected = true;
                                  }
-                                 catch
+                                 catch (Exception ex)
                                  {
-                                     new Views.CustomMessageBoxOk("Wystąpił błąd podczas łączenia z bazą. Spróbuj ponownie później").ShowDialog();
+                                     new Views.CustomMessageBoxOk(ex.Message).ShowDialog();
                                      connection.isConnected = false;
                                  }
                                  foreach (Window item in Application.Current.Windows)
